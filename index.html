@@ -25,15 +25,22 @@ h1 {
   padding: 50px 20px;
 }
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .card {
   background: #1e293b;
   margin: 15px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
+  width: 300px;
 }
 
 img, video {
-  margin: 15px;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -63,58 +70,61 @@ button:hover {
 
 <div class="section">
 <h2>About Me</h2>
-<p>I help brands grow with high-quality studio photos, engaging UGC videos, and powerful digital marketing strategies.</p>
+<p>I help brands grow with high-quality product visuals and viral content strategies.</p>
 </div>
 
 <div class="section">
 <h2>My Services</h2>
-<div class="card">📸 Product & Studio Photography</div>
+<div class="card">📸 Product Photography</div>
 <div class="card">🎥 UGC Video Creation</div>
-<div class="card">📈 Instagram Growth & Marketing</div>
-<div class="card">🎯 Content Strategy & Viral Reels</div>
+<div class="card">📈 Instagram Growth</div>
+<div class="card">🎯 Content Strategy</div>
+</div>
+
+<!-- 📸 PRODUCT SECTION -->
+<div class="section">
+<h2>📸 Product Photography</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="Screenshot_20260329-145232.jpg">
+<p>High-quality product shoot</p>
+</div>
+
+<div class="card">
+<img src="Screenshot_20260329-145225.jpg">
+<p>Creative product visuals</p>
+</div>
+
+<div class="card">
+<img src="Screenshot_20260329-145210.jpg">
+<p>Brand-style photography</p>
+</div>
+
+</div>
+</div>
+
+<!-- 🎥 VIDEO SECTION -->
+<div class="section">
+<h2>🎥 UGC Video Content</h2>
+
+<div class="grid">
+
+<div class="card">
+<video controls>
+  <source src="YouCut_20260329_135754371.mp4" type="video/mp4">
+</video>
+<p>UGC video for product promotion</p>
+</div>
+
+</div>
 </div>
 
 <div class="section">
 <h2>Results</h2>
 <div class="card">🔥 143M+ Views on Reels</div>
-<div class="card">📊 Viral Pages Managed</div>
-<div class="card">🚀 High Engagement Content</div>
-</div>
-
-<!-- 🔥 YOUR SAMPLES SECTION -->
-<div class="section">
-<div class="section">
-<h2>My Work</h2>
-
-<img src="Screenshot_20260329-145232.jpg" width="300">
-<p>Product shoot for engagement-focused content</p>
-
-<img src="Screenshot_20260329-145225.jpg" width="300">
-<p>Creative product photography</p>
-
-<img src="Screenshot_20260329-145210.jpg" width="300">
-<p>Brand-style product shoot</p>
-
-<br>
-
-<video width="300" controls>
-  <source src="YouCut_20260329_135754371.mp4" type="video/mp4">
-</video>
-<p>UGC video for product promotion</p>
-
-</div>
-
-<!-- IMAGE SAMPLE -->
-<img src="sample1.jpg" width="300">
-<p>Product Photography Sample</p>
-
-<!-- VIDEO SAMPLE -->
-<br>
-<video width="300" controls>
-  <source src="samplevideo.mp4" type="video/mp4">
-</video>
-<p>UGC Video Sample</p>
-
+<div class="card">📊 Viral Content Creation</div>
 </div>
 
 <div class="section">
