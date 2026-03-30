@@ -14,7 +14,7 @@
 }
 
 body {
-  background: #0f172a;
+  background: #0b1220;
   color: white;
 }
 
@@ -29,34 +29,39 @@ body {
 /* HERO */
 .hero {
   text-align: center;
-  padding: 40px 20px;
+  padding: 50px 20px;
 }
 
 .hero h1 {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .hero p {
-  color: #cbd5e1;
-  margin: 10px 0 20px;
+  color: #9ca3af;
+  margin: 15px 0;
 }
 
 .btn {
   background: #22c55e;
-  padding: 12px 20px;
+  padding: 14px 22px;
   border-radius: 8px;
   color: white;
   text-decoration: none;
+  font-weight: bold;
+}
+
+/* TRUST BADGE */
+.trust {
+  text-align: center;
+  margin-top: 15px;
+  color: #9ca3af;
+  font-size: 14px;
 }
 
 /* SECTION */
 .section {
-  padding: 30px 20px;
+  padding: 40px 20px;
   text-align: center;
-}
-
-.section h2 {
-  margin-bottom: 15px;
 }
 
 /* SERVICES */
@@ -64,14 +69,19 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
 }
 
 .card {
-  background: #1e293b;
+  background: #111827;
   border-radius: 12px;
   width: 300px;
   overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card img {
@@ -89,8 +99,8 @@ body {
   background: #111827;
   padding: 20px;
   border-radius: 10px;
-  margin: 10px;
   width: 280px;
+  border: 1px solid #22c55e;
 }
 
 .plan h3 {
@@ -102,23 +112,35 @@ body {
   color: #9ca3af;
 }
 
+/* TESTIMONIAL */
+.testimonial {
+  background: #111827;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
 /* CONTACT */
 .contact {
   text-align: center;
-  padding: 30px;
+  padding: 40px;
 }
 
 /* FOOTER */
 .footer {
   text-align: center;
-  padding: 15px;
-  color: #94a3b8;
+  padding: 20px;
+  color: #6b7280;
 }
 
 /* MOBILE */
 @media (max-width: 768px) {
   .card, .plan {
     width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 24px;
   }
 }
 </style>
@@ -131,9 +153,10 @@ body {
 </div>
 
 <div class="hero">
-  <h1>Grow Your Brand With Content & Marketing</h1>
+  <h1>I Help Brands Get Customers Through Content</h1>
   <p>Social Media • Product Shoots • Marketing Strategy</p>
-  <a href="https://wa.me/919969801345" class="btn">Contact Me</a>
+  <a href="https://wa.me/919969801345" class="btn">Work With Me</a>
+  <div class="trust">Trusted by growing brands</div>
 </div>
 
 <!-- SERVICES -->
@@ -144,8 +167,8 @@ body {
     <div class="card">
       <img src="Screenshot_20260329-145000.jpg">
       <div class="card-content">
-        <h3>Social Media Management</h3>
-        <p>Grow your Instagram with strategy and content</p>
+        <h3>Social Media Growth</h3>
+        <p>Grow your Instagram with content & strategy</p>
       </div>
     </div>
 
@@ -153,25 +176,25 @@ body {
       <img src="Screenshot_20260329-145100.jpg">
       <div class="card-content">
         <h3>Product Photography</h3>
-        <p>Professional studio-style product shoots</p>
+        <p>Professional product photos for your brand</p>
       </div>
     </div>
 
     <div class="card">
       <img src="Screenshot_20260329-145200.jpg">
       <div class="card-content">
-        <h3>Video Creation</h3>
-        <p>Reels, ads and promotional videos</p>
+        <h3>Video Content</h3>
+        <p>Reels & ads that attract customers</p>
       </div>
     </div>
 
   </div>
 </div>
 
-<!-- WHY CHOOSE ME -->
+<!-- WHY -->
 <div class="section">
   <h2>Why Choose Me?</h2>
-  <p>I don’t just post content — I help businesses get real customers using strategy, content, and visuals.</p>
+  <p>I don’t just post content — I help businesses grow and get real customers using proven strategies.</p>
 </div>
 
 <!-- PLANS -->
@@ -180,21 +203,30 @@ body {
   <div class="row">
 
     <div class="plan">
-      <h3>Starter Plan</h3>
+      <h3>Starter</h3>
       <p>✔ 8–10 posts<br>✔ Basic growth<br>✔ Content ideas</p>
     </div>
 
     <div class="plan">
-      <h3>Growth Plan</h3>
-      <p>✔ 12–15 reels<br>✔ Strategy + editing<br>✔ 1 product shoot</p>
+      <h3>Growth</h3>
+      <p>✔ 12–15 reels<br>✔ Strategy + editing<br>✔ 1 shoot</p>
     </div>
 
     <div class="plan">
-      <h3>Premium Plan</h3>
-      <p>✔ Full content<br>✔ Product shoots<br>✔ Marketing strategy</p>
+      <h3>Premium</h3>
+      <p>✔ Full content<br>✔ Shoots + videos<br>✔ Marketing strategy</p>
     </div>
 
   </div>
+</div>
+
+<!-- TESTIMONIALS -->
+<div class="section">
+  <h2>Client Results</h2>
+
+  <div class="testimonial">“Got more engagement in 2 weeks than before”</div>
+  <div class="testimonial">“Content quality improved a lot”</div>
+
 </div>
 
 <!-- CONTACT -->
@@ -209,4 +241,4 @@ body {
 </div>
 
 </body>
-  </html>
+      </html>
